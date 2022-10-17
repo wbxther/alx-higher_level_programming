@@ -1,9 +1,14 @@
-#!/usr/bin!/python3
-### creating 1-square a subset of 0-square###
-class Square(Square):
-    def __init__(self, size=0):
-       self.size = size
+#!/usr/bin/python3
+# 1-square.py
+"""Definition of a class Square."""
 
-    @property
-    def size(self):
-       return self.__size
+
+class Square:
+    """Representation of a square."""
+
+    def __init__(self, size):
+        """Initialize a new Square.
+        Args:
+            size (int): The size of the new square.
+        """
+        self.__size = size
